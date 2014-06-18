@@ -4,6 +4,7 @@ Center me is a Handy little mixin that center's an element within its parent con
 
 ###Example Sass
 
+```
   body {
     background-color: orange;
   }
@@ -12,8 +13,11 @@ Center me is a Handy little mixin that center's an element within its parent con
     @include center-me(10em, 20em);
     background-color: blue;
   }
+```
 
 ###Example CSS Output
+
+```
   body {
     background-color: orange;
   }
@@ -26,6 +30,8 @@ Center me is a Handy little mixin that center's an element within its parent con
     left: calc(50% - 10em);
     background-color: blue;
   }
+```
+
 ###To Install
 ```
 $ bower install center-me --save
@@ -45,4 +51,9 @@ sass: {
     }
   }
 }
+```
+In your Sass manifest:
+
+```
+@import "center-me";
 ```
