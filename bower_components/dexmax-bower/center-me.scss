@@ -1,0 +1,21 @@
+// This is a simple little guy that asks for the height and width
+// of whatever you want to have centered within it's parent container
+//body {
+//   background-color: orange;
+// }
+
+// div {
+//   @include center-me(10em, 20em);
+//   background-color: blue;
+// }
+
+// The div within the body will have a height of 10em and a width of 20em and be completely vertically centered!
+
+
+@mixin center-me($width, $height) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  top: calc(50% - #{$height /2});
+  left: calc(50% - #{$width /2});
+}

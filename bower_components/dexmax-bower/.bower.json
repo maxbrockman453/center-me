@@ -1,0 +1,31 @@
+{
+  "name": "dexmax-bower",
+  "authors": [
+    "(Dexter Lesaca <dexter.lesaca@gmail.com>)",
+    "(Max Brockman <maxbrockman453@gmail.com>)"
+  ],
+  "description": "Handy little mixin that center's an element within its parent",
+  "main": "center-me.scss",
+  "keywords": [
+    "center"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/maxbrockman453/center-me",
+  "_release": "f4d163d12a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f4d163d12a719cc2fd8c76b96a6927d1c7d94fc2"
+  },
+  "_source": "https://github.com/maxbrockman453/center-me.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/maxbrockman453/center-me.git",
+  "_direct": true
+}
