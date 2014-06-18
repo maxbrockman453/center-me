@@ -3,7 +3,7 @@
 Center me is a Handy little mixin that center's an element within its parent container. It uses the ```calc()``` function that is built in to CSS.
 
 ###Example Sass
-
+```
   body {
     background-color: orange;
   }
@@ -12,8 +12,9 @@ Center me is a Handy little mixin that center's an element within its parent con
     @include center-me(10em, 20em);
     background-color: blue;
   }
-
+```
 ###Example CSS Output
+```
   body {
     background-color: orange;
   }
@@ -26,3 +27,4 @@ Center me is a Handy little mixin that center's an element within its parent con
     left: calc(50% - 10em);
     background-color: blue;
   }
+```
