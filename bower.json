@@ -1,0 +1,20 @@
+{
+  "name": "dexmax-bower",
+  "version": "0.1.0",
+  "authors": [
+    "(Dexter Lesaca <dexter.lesaca@gmail.com>)", "(Max Brockman <maxbrockman453@gmail.com>)"
+  ],
+  "description": "Handy little mixin that center's an element within its parent",
+  "main": "center-me.scss",
+  "keywords": [
+    "center"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
